@@ -105,7 +105,7 @@ Each entity and attribute is converted into RDF triples:
 
 Below is a visual representation of the RDF graph structure:
 
-![RDF Graph Structure](rdf_graph_structure.png)
+![RDF Graph Structure](docs/rdf_graph_structure.png)
 
 ---
 ## 🧭 Step-by-Step: Load RDF in GraphDB
