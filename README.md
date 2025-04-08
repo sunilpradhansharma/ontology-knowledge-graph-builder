@@ -99,6 +99,13 @@ Each entity and attribute is converted into RDF triples:
                                       ex:relatedEntity <http://example.org/entity/related-entity> ;
                                       ex:hasDataQualityRule <http://example.org/dataQualityRule/xyz456/0> .
 ```
+---
+
+## 📊 RDF Graph Structure
+
+Below is a visual representation of the RDF graph structure:
+
+![RDF Graph Structure](rdf_graph_structure.png)
 
 ---
 ## 🧭 Step-by-Step: Load RDF in GraphDB
