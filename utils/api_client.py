@@ -49,6 +49,6 @@ def generate_response_all_entities():
     # Save or print the combined response
     print(json.dumps(combined_response, indent=2))
 
-    # Optionally, write to a file
+    # write to a file
     with open('combined_entities.json', 'w') as f:
         json.dump(combined_response, f, indent=2)
