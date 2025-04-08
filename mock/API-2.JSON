@@ -1,0 +1,24 @@
+{
+  "dataEntities": [
+    {
+      "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx1",
+      "dataEntityVersionNumber": "1.0",
+      "dataEntityVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1",
+      "commonLabel": "Sample Business Customer Identifier",
+      "definition": "A sample business customer identifier entity is a managed and bounded grouping of standardized attributes.",
+      "dictionary": "Business Customer",
+      "identifyingKeyId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY1",
+      "standardizedAttributes": [
+        {
+          "standardizedAttributeId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1",
+          "standardizedAttributeVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxSV1"
+        },
+        {
+          "standardizedAttributeId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS2",
+          "standardizedAttributeVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxSV2"
+        }
+      ],
+      "isLatestVersion": true
+    }
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "dataEntities": [
+    {
+      "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx1",
+      "dataEntityVersionNumber": "1.0",
+      "dataEntityVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1",
+      "commonLabel": "Sample Business Customer Identifier",
+      "definition": "A sample business customer identifier entity is a managed and bounded grouping of standardized attributes.",
+      "dictionary": "Business Customer",
+      "identifyingKeyId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY1",
+      "isLatestVersion": true
+    },
+    {
+      "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx2",
+      "dataEntityVersionNumber": "1.0",
+      "dataEntityVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1",
+      "commonLabel": "Sample Payment",
+      "definition": "A Sample Payment entity is a managed and bounded grouping of standardized attributes that describes an artifact which facilitates the transfer of funds in order to complete a payment transaction.",
+      "dictionary": "Financial Account",
+      "identifyingKeyId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY2",
+      "isLatestVersion": true
+    },
+    {
+      "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx3",
+      "dataEntityVersionNumber": "1.0",
+      "dataEntityVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1",
+      "commonLabel": "Sample Customer Email Address",
+      "definition": "An sample customer email address entity is a managed and bounded grouping of standardized attributes that describes an email address belonging to an individual person who is a customer.",
+      "dictionary": "Customer",
+      "identifyingKeyId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY3",
+      "isLatestVersion": true
+    },
+    {
+      "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx4",
+      "dataEntityVersionNumber": "1.0",
+      "dataEntityVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1",
+      "commonLabel": "Sample Customer Complaint",
+      "definition": "Sample customer complaint entity is a bounded and managed grouping of attributes that describes complaints.",
+      "dictionary": "Complaint",
+      "identifyingKeyId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY4",
+      "isLatestVersion": true
+    }
+  ]
+}

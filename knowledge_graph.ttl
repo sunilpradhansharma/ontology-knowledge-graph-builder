@@ -1,0 +1,60 @@
+@prefix ex: <http://example.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://example.org/entity/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx1> ex:commonLabel "Sample Business Customer Identifier" ;
+    ex:dataEntityVersionId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1" ;
+    ex:dataEntityVersionNumber "1.0" ;
+    ex:definition "A sample business customer identifier entity is a managed and bounded grouping of standardized attributes." ;
+    ex:dictionary "Business Customer" ;
+    ex:hasAttribute <http://example.org/attribute/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1>,
+        <http://example.org/attribute/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS2> ;
+    ex:identifyingKeyId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY1" ;
+    ex:isLatestVersion true .
+
+<http://example.org/entity/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx2> ex:commonLabel "Sample Payment" ;
+    ex:dataEntityVersionId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1" ;
+    ex:dataEntityVersionNumber "1.0" ;
+    ex:definition "A Sample Payment entity is a managed and bounded grouping of standardized attributes that describes an artifact which facilitates the transfer of funds in order to complete a payment transaction." ;
+    ex:dictionary "Financial Account" ;
+    ex:identifyingKeyId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY2" ;
+    ex:isLatestVersion true .
+
+<http://example.org/entity/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx3> ex:commonLabel "Sample Customer Email Address" ;
+    ex:dataEntityVersionId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1" ;
+    ex:dataEntityVersionNumber "1.0" ;
+    ex:definition "An sample customer email address entity is a managed and bounded grouping of standardized attributes that describes an email address belonging to an individual person who is a customer." ;
+    ex:dictionary "Customer" ;
+    ex:identifyingKeyId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY3" ;
+    ex:isLatestVersion true .
+
+<http://example.org/entity/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx4> ex:commonLabel "Sample Customer Complaint" ;
+    ex:dataEntityVersionId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1" ;
+    ex:dataEntityVersionNumber "1.0" ;
+    ex:definition "Sample customer complaint entity is a bounded and managed grouping of attributes that describes complaints." ;
+    ex:dictionary "Complaint" ;
+    ex:identifyingKeyId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxKEY4" ;
+    ex:isLatestVersion true .
+
+<http://example.org/attribute/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1> ex:dataType "STRING" ;
+    ex:dictionary "Account" ;
+    ex:hasDataQualityRule <http://example.org/dataQualityRule/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1/0> ;
+    ex:isLatestVersion true ;
+    ex:metadata_relatedEntities "[{'dataEntityId': 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx1', 'dataEntityVersionId': 'xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1', 'commonLabel': 'Sample Business Customer Identifier'}, {'dataEntityId': 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx9', 'dataEntityVersionId': 'xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV9', 'commonLabel': 'Sample Business Use case'}, {'dataEntityId': 'xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx8', 'dataEntityVersionId': 'xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV8', 'commonLabel': 'Sample Customer Relationship'}]" ;
+    ex:parentStandardizedAttributeId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxPS1" ;
+    ex:relatedTerms "Account Domicile Country Code",
+        "Customer Country of Origin" ;
+    ex:repositoryCategoryKey "CONTACT_INFORMATION" ;
+    ex:sampleValues "US" ;
+    ex:standardizedAttributeDefinition "country code is a two-letter code that represents the country." ;
+    ex:standardizedAttributeId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1" ;
+    ex:standardizedAttributeName "country_code" ;
+    ex:standardizedAttributeTypeKey "VARIANT" ;
+    ex:standardizedAttributeTypes "ELEMENT" ;
+    ex:standardizedAttributeVersionId "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxSV1" ;
+    ex:standardizedSpecificationName "Country Code" ;
+    ex:standardizedSpecificationUri "CountryCode" ;
+    ex:uri "http://ontologies.org.com/CountryCode" .
+
+<http://example.org/dataQualityRule/xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1/0> ex:pattern "^[A-Z]{2}$" ;
+    ex:ruleType "REGULAR_EXPRESSION" .
+

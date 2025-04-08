@@ -1,0 +1,58 @@
+{
+  "results": [
+    {
+      "standardizedAttributeId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxS1",
+      "standardizedAttributeVersionId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxSV1",
+      "metadata": {
+        "relatedEntities": [
+          {
+            "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx1",
+            "dataEntityVersionId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV1",
+            "commonLabel": "Sample Business Customer Identifier"
+          },
+          {
+            "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx9",
+            "dataEntityVersionId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV9",
+            "commonLabel": "Sample Business Use case"
+          },
+          {
+            "dataEntityId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxx8",
+            "dataEntityVersionId": "xxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxxV8",
+            "commonLabel": "Sample Customer Relationship"
+          }
+        ]
+      },
+      "dictionary": "Account",
+      "sampleValues": [
+        "US"
+      ],
+      "parentStandardizedAttributeId": "xxxxxxxx-xxxx-xxxx-xxxx-xxxxxxxxxPS1",
+      "relatedTerms": [
+        "Account Domicile Country Code",
+        "Customer Country of Origin"
+      ],
+      "uri": "http://ontologies.org.com/CountryCode",
+      "standardizedAttributeTypeKey": "VARIANT",
+      "standardizedAttributeTypes": [
+        "ELEMENT"
+      ],
+      "standards": {
+        "dataQualityRules": [
+          {
+            "regularExpressionRuleDetails": {
+              "regularExpression": "^[A-Z]{2}$"
+            },
+            "ruleType": "REGULAR_EXPRESSION"
+          }
+        ]
+      },
+      "dataType": "STRING",
+      "repositoryCategoryKey": "CONTACT_INFORMATION",
+      "standardizedAttributeName": "country_code",
+      "standardizedAttributeDefinition": "country code is a two-letter code that represents the country.",
+      "standardizedSpecificationName": "Country Code",
+      "standardizedSpecificationUri": "CountryCode",
+      "isLatestVersion": true
+    }
+  ]
+}
