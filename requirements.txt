@@ -2,3 +2,13 @@ rdflib
 SPARQLWrapper
 requests
 python-dotenv
+gradio
+sentence-transformers
+pandas
+langchain
+chromadb
+fastapi
+pydantic
+openai
+huggingface-hub
+uvicorn
